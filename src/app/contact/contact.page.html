@@ -1,0 +1,26 @@
+
+
+<ion-content class="ion-padding">
+  <div class="logo-container">
+    <img src="assets/logo.png" alt="Logo">
+  </div>
+
+  <form (ngSubmit)="submitForm()">
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" [(ngModel)]="name" name="name" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Number</ion-label>
+      <ion-input type="tel" [(ngModel)]="number" name="number" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Comments (max 500 characters)</ion-label>
+      <ion-textarea [(ngModel)]="comments" name="comments" rows="5" maxlength="500"></ion-textarea>
+    </ion-item>
+
+    <ion-button color="secondary" type="submit" expand="block">Submit</ion-button>
+  </form>
+</ion-content>

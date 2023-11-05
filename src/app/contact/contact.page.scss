@@ -1,0 +1,24 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  max-width: 150px; /* Adjust as needed */
+  max-height: 150px; /* Adjust as needed */
+  width: auto;
+  height: auto;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}
+
+ion-textarea {
+  min-height: 3em;
+}
+
+ion-button {
+  margin-top: 20px;
+}
