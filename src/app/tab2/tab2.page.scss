@@ -8,15 +8,16 @@
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 20px;
-}
-ion-content {
-  --background: url('../assets/bkg.png') no-repeat center center fixed;
-  background-size: cover;
+
+  img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 }
 
-.category-item img {
-  width: 100%;
-  max-width: 300px; /* Adjust as needed */
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ion-content {
+  --background: url('/assets/bkg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
