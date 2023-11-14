@@ -9,6 +9,10 @@
   cursor: pointer;
   margin-bottom: 20px;
 }
+ion-content {
+  --background: url('../assets/bkg.png') no-repeat center center fixed;
+  background-size: cover;
+}
 
 .category-item img {
   width: 100%;

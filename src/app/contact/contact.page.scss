@@ -22,3 +22,7 @@ ion-textarea {
 ion-button {
   margin-top: 20px;
 }
+ion-content {
+  --background: url('../assets/bkg.png') no-repeat center center fixed;
+  background-size: cover;
+}

@@ -1,12 +1,20 @@
 ion-content {
+  --background: url('../../assets/bkg.png') no-repeat center center fixed;
+  background-size: cover;
+
   ion-padding {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+    position: relative;
+    z-index: 1;
 
-  iframe {
-    max-width: 100%;
+    iframe {
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
+    }
   }
 }
+
