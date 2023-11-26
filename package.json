@@ -1,6 +1,6 @@
 {
   "name": "l2s",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Quake Technology Inc",
   "homepage": "https://quaketechs.com/",
   "scripts": {
@@ -26,7 +26,7 @@
     "@capacitor/assets": "^3.0.1",
     "@capacitor/core": "5.5.1",
     "@capacitor/haptics": "5.0.6",
-    "@capacitor/ios": "^5.5.1",
+    "@capacitor/ios": "5.5.1",
     "@capacitor/keyboard": "5.0.6",
     "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.0.0",
