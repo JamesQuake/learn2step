@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
+ {
     path: '',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
@@ -10,10 +10,7 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
-  {
-    path: 'slides',
-    loadChildren: () => import('./slides/slides.module').then( m => m.SlidesPageModule)
-  },
+
 
   {
     path: 'signup',
@@ -38,7 +35,8 @@ const routes: Routes = [
   {
     path: 'half-turn',
     loadChildren: () => import('./half-turn/half-turn.module').then( m => m.HalfTurnPageModule)
-  }
+  },
+
 ];
 @NgModule({
   imports: [

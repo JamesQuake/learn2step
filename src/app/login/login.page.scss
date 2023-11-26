@@ -12,30 +12,6 @@ img {
   transform: translate(-50%, -50%);
   width: 50%; /* Add this line to make the logo 50% smaller */
 }
-
-
-.ion-slides{
-  height:100%
-}
-.ion-slide {
-  display: block;
-}
-
-.ion-slide img {
-  padding: 10%
-}
-
-.slider-text {
-  padding-top: 20%;
-}
-
-.slider-text h1 {
-  font-family: 'Montserrat-Bold'
-}
-.h2 {
-  font-family: 'SCRIPTBL';
-}
-
 .navigator {
   display: flex;
   justify-content: space-between;
@@ -43,48 +19,6 @@ img {
   left: 0;
   bottom:0;
 }
-
-.swiper-pagination {
-  width: 50% !important;
-  left: 25% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-pagination-bullet {
-  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
-}
-
-.swiper-pagination-bullet-active {
-  width: 12px;
-  height: 12px;
-  background: transparent;
-  border: 2px solid var(--bullet-background-active);
-}
-
-.heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family:Arial, Helvetica, sans-serif;
-  padding-bottom: 20px;
-}
-
-.seperatebtn{
-  display: flex;
-  justify-content: right;
-  align-items: center;
-
-}
-
-ion-content {
-  --padding-start: 10px;
-  --padding-end: 10px;
-  color: #000080;
-}
-
-
 ion-toolbar{
   --ion-background-color: transparent;
   --opacity:0;
@@ -94,9 +28,6 @@ ion-card{
   background-color: transparent !important;
   padding: 0 !important;
 }
-
-
-
 ion-card-title{
   margin-top: 30px;
   font-size: 20px;
@@ -127,12 +58,6 @@ box-shadow: none !important;
   text-align: center;
   color:#F0F4FA;
 }
-
-.loginbtn{
-  --ion-color-primary:#215AB7;
-}
-
-
 .social-btns{
   margin-top: 30px;
   text-align: center;
