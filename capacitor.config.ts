@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.learn2step.quaketechs',
-  appName: 'learn2step',
+  appId: 'io.ionic.starter',
+  appName: 'tabs',
   webDir: 'www',
   server: {
     androidScheme: 'https'
